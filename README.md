@@ -3,7 +3,7 @@
 
  ESP32 software that allows you to wirelessly control gates to let yourself in and out of your property
 
- To configure, edit the `settings.h` header file in `./include` directory, there you will be adjust the firmware to your specifications.
+ To configure, edit the `settings_template.h` header file in `./include` directory and rename it to `settings.h`, there you will be adjust the firmware to your specifications.
  I have only implemented 4 actions, as there was no need for more:
  1. Open the gate
  2. Close the gate
